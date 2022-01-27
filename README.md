@@ -39,3 +39,5 @@ MATLAB implementation of the popular online game Wordle.
 %            code will be released when both 1 and 2 are complete.
 % 
 %    VERSION: 20220125 - Initial release
+%
+%    Please report bugs at: https://github.com/jeffreyluci/matWordle
