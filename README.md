@@ -1,13 +1,15 @@
 # matWordle
 MATLAB implementation of the popular online game Wordle.
 
-MATWORDLE - Independent MATLAB implementation of the popular online game Wordle, written by Josh Wardle. The original game is available at the following URL:
+MATWORDLE - Independent MATLAB implementation of the popular online game Wordle, which was written by Josh Wardle. The original game is available at the following URL:
 
 https://www.powerlanguage.co.uk/wordle/
 
 USAGE: matWordle
 
 Unlike the online version of this game, it is possible to play it as many times as you like. The code reads the file words.txt for a list of possible words that you can customize as you like. But, keep in mind that it uses the same list of words to validate guesses. So, if you customize that file, adding words to the original is the recommended course. The default distribution of words.txt is simply the contents of the standard Linux spellcheck dictionary with all proper nouns and words with special characters removed.
+
+Note that at this time, the game only allows five guesses instead of six. That will change in the vext release.
 
 If you want to play with a friend, you can share a random number and use it as the sole argument to the function call.
 
